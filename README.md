@@ -57,8 +57,10 @@ Para o desenvolvimento do projeto será utilizado os seguintes materiais:
 * Display OLED I2C;
 * Módulo Relé;
 * Buzzer.
-* 
+
+ 
 **FIGURA 3 - COMPONENTES NECESSÁRIOS**
+
 ![image](https://github.com/Greicili/PI2-Deteccao_vazamento/assets/81031562/d0d556ce-439e-4c2e-9e86-01b5f263512e)
 
 O sensor de fluxo YF-S201b fornece um sinal PWM com o número de pulsos de acordo com a
@@ -78,6 +80,7 @@ sinal sonoro, com a utilização do buzzer, e através de uma mensagem apresenta
 interfaces com o usuário.
 
 **FIGURA 4 - MAQUETE ELETRÔNICA**
+
 ![image](https://github.com/Greicili/PI2-Deteccao_vazamento/assets/81031562/62f21d8c-9526-4456-84ae-2e5e1fdd573d)
 
 
@@ -89,12 +92,14 @@ acesso pode ser feito através do celular, com o aplicativo disponível na AppSt
 e também pelo computador, através do site do Blynk.
 
 **FIGURA 5 - APLICATIVO PARA VISUALIZAR OS DADOS PELO CELULAR E NAVEGADOR**
+
 ![image](https://github.com/Greicili/PI2-Deteccao_vazamento/assets/81031562/4b0fcc6f-e0c1-449b-94f2-09c1b4ac5ccf)
 
 Na Figura 6, é apresentada uma configuração inicial das possíveis informações que podem
 estar disponíveis para o usuário que utilizará o sistema.
 
 **FIGURA 6 - PROTÓTIPO NO BLYNK WEB**
+
 ![image](https://github.com/Greicili/PI2-Deteccao_vazamento/assets/81031562/63a77dfe-dd00-4186-a4d4-b1c456d9df18)
 
 
@@ -112,12 +117,14 @@ estabelecida através do protocolo ESP-NOW, desenvolvido pela Espressif, e não 
 utilização de um roteador.
 
 **Figura 7 - Comunicação entre os ESPs utilizando ESP-NOW**
+
 ![image](https://github.com/Greicili/PI2-Deteccao_vazamento/assets/81031562/7fc59aa0-b9fb-498f-a95f-3c0007b9a11c)
 
 Na Figura 8 é apresentado um esquema das atribuições de cada ESP-8266 no
 funcionamento do sistema.
 
 **Figura 8 - Atruibuição de cada ESP-8266**
+
 ![image](https://github.com/Greicili/PI2-Deteccao_vazamento/assets/81031562/1c007764-f877-49b2-881f-17bbec6d1fe2)
 
 
@@ -126,6 +133,7 @@ Na Figura 9, é apresentado o esquema de ligação dos componentes ao ESP-8266, 
 atuando como ESP-SENSOR.
 
 **Figura 9- Maquete eletrônica para o ESP-SENSOR no Fritzing**
+
 ![image](https://github.com/Greicili/PI2-Deteccao_vazamento/assets/81031562/6dd95f9f-1756-4782-848d-df7ee7915e2d)
 
 O script desenvolvido para implementar as funções do ESP-SENSOR pode ser encontrado
@@ -136,6 +144,7 @@ acionamento do rele e comunicação entre os ESPs.
 Na Figura 10, mostra-se a montagem do esquema desenvolvido para o funcionamento do ESP-CENTRAL.
 
 **Figura 10- Maquete eletrônica para o ESP-CENTRAL no Fritzing**
+
 ![image](https://github.com/Greicili/PI2-Deteccao_vazamento/assets/81031562/ad308250-5c05-4244-acea-ad1cce406983)
 
 O script desenvolvido para implementar as funções do ESP-CENTRAL pode ser encontrado
@@ -147,6 +156,7 @@ os ESPs e controlar o acionamento do buzzer.
 Os dashboards desenvolvidos no Blynk, para a versão web e mobile, é mostrado na Figura 11.
 
 **Figura 11- Dashboards no Blynk**
+
 ![image](https://github.com/Greicili/PI2-Deteccao_vazamento/assets/81031562/f0c30ddc-ec04-4ab8-9ac9-9ed52db3a5b4)
 
 ### **PROJETO FINAL**
@@ -155,11 +165,15 @@ encontra-se a estrutura criada para testar o funcionamento do sistema. A caixa p
 para armazenar a água que será utilizada para criar o fluxo que passará pelo sensor.
 
 **Figura 12 - Projeto Final**
+
 ![image](https://github.com/Greicili/PI2-Deteccao_vazamento/assets/81031562/0dbf6f8f-31ca-4bee-8fbc-d5ef948176ca)
 
 ### **Vídeo - Projeto Final em funcionamento**
 No [vídeo](https://github.com/Greicili/PI2-Deteccao_vazamento/blob/main/Video_Projeto_final_PI2.mp4) é mostrado a detecção do vazamento após ter sido identificado a presença de um
 fluxo constante por um intervalo de 30 segundos. Lembrando que esse tempo para a detecção é definido pelo usuário.
+
+
+
 
 
 ## **REFERÊNCIAS**
