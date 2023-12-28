@@ -43,17 +43,17 @@ encaminhar o resultado ao usuário, mantendo-o atualizado da condição do siste
 Para o desenvolvimento do projeto será utilizado os seguintes materiais:
 * Módulo Wifi ESP 8266;
 * Sensor de Fluxo de Água 1/2" YF-S201b:
- – Tipo de sensor: Efeito Hall
- – Tensão de operação: 5-24V
- – Corrente máxima: 15mA (5V)
- – Faixa de fluxo: 1-30L/min
- – Pressão máxima: 2,0 MPa
- – Pulsos por litro: 450
- – Frequência (Hz) = 7,5*Fluxo(L/min)
- – Exatidão: 10%
- – Dimensão conexão: 1/2ʺ
- – Dimensão diâmetro interno: 0,78ʺ
- – Dimensão externa: 2,5ʺ x 1,4ʺ x 1,4ʺ
+ ** Tipo de sensor: Efeito Hall
+ ** Tensão de operação: 5-24V
+ ** Corrente máxima: 15mA (5V)
+ ** Faixa de fluxo: 1-30L/min
+ ** Pressão máxima: 2,0 MPa
+ ** Pulsos por litro: 450
+ ** Frequência (Hz) = 7,5*Fluxo(L/min)
+ ** Exatidão: 10%
+ ** Dimensão conexão: 1/2ʺ
+ ** Dimensão diâmetro interno: 0,78ʺ
+ ** Dimensão externa: 2,5ʺ x 1,4ʺ x 1,4ʺ
 * Display OLED I2C;
 * Módulo Relé;
 * Buzzer.
