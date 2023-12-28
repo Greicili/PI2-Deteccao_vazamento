@@ -41,22 +41,22 @@ encaminhar o resultado ao usuário, mantendo-o atualizado da condição do siste
 ![image](https://github.com/Greicili/PI2-Deteccao_vazamento/assets/81031562/3335e96e-5513-4ed9-986f-73d3f027b40e)
 
 Para o desenvolvimento do projeto será utilizado os seguintes materiais:
-* Módulo Wifi ESP 8266;
-* Sensor de Fluxo de Água 1/2" YF-S201b:
- * Tipo de sensor: Efeito Hall
- * Tensão de operação: 5-24V
- * Corrente máxima: 15mA (5V)
- * Faixa de fluxo: 1-30L/min
- * Pressão máxima: 2,0 MPa
- * Pulsos por litro: 450
- * Frequência (Hz) = 7,5*Fluxo(L/min)
- * Exatidão: 10%
- * Dimensão conexão: 1/2ʺ
- * Dimensão diâmetro interno: 0,78ʺ
- * Dimensão externa: 2,5ʺ x 1,4ʺ x 1,4ʺ
-* Display OLED I2C;
-* Módulo Relé;
-* Buzzer.
+- Módulo Wifi ESP 8266;
+- Sensor de Fluxo de Água 1/2" YF-S201b:
+    - Tipo de sensor: Efeito Hall
+    - Tensão de operação: 5-24V
+    - Corrente máxima: 15mA (5V)
+    - Faixa de fluxo: 1-30L/min
+    - Pressão máxima: 2,0 MPa
+    - Pulsos por litro: 450
+    - Frequência (Hz) = 7,5*Fluxo(L/min)
+    - Exatidão: 10%
+    - Dimensão conexão: 1/2ʺ
+    - Dimensão diâmetro interno: 0,78ʺ
+    - Dimensão externa: 2,5ʺ x 1,4ʺ x 1,4ʺ
+- Display OLED I2C;
+- Módulo Relé;
+- Buzzer.
 
  
 **FIGURA 3 - COMPONENTES NECESSÁRIOS**
